@@ -1,0 +1,16 @@
+﻿{
+  "Sessions": [
+    {
+      "CurrentBookIsbn": "2-170051-01-5",
+      "CurrentPageNumber": -7,
+      "FirstRead": "2015-06-25T23:48:00.0000000",
+      "LastRead": "2015-06-30T11:15:23.0000000"
+    },
+    {
+      "CurrentBookIsbn": "2-170051-02-3",
+      "CurrentPageNumber": 143,
+      "FirstRead": "2018-05-12T22:33:11.0000000",
+      "LastRead": "2018-05-25T14:55:22.0000000"
+    }
+  ]
+}

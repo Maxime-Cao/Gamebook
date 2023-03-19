@@ -1,0 +1,13 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="400"
+             x:Class="GBReaderCaoM.Avalonia.GameBookView">
+		<StackPanel x:Name="BookPanel" PointerLeave="OnMouseLeaveBookPanel" PointerEnter="OnMouseEnterBookPanel" PointerPressed="OnBookPanelClick" Width="300" MinHeight="350" Margin="10" Background="#efefef">
+			<TextBlock TextWrapping="Wrap" Margin="6" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" x:Name="TitleBook"/>
+			<Image Source="/Resources/Icons/no-image.png" Width="250" />
+			<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="AuthorBook"/>
+			<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="IsbnBook"/>
+		</StackPanel>
+</UserControl>

@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderCaoM.Avalonia.Pages.DisplayStatsView">
+	<ScrollViewer HorizontalAlignment="Center" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+		<StackPanel HorizontalAlignment="Center" Margin="10" Spacing="8">
+			<TextBlock x:Name="SuccessMessage" Foreground="Green" IsVisible="False"/>
+			<TextBlock x:Name="ErrorMessage" Foreground="Red" IsVisible="False"/>
+			<Button HorizontalAlignment="Center" Click="OnClickGoToHome">Revenir à l'accueil</Button>
+			<TextBlock x:Name="StatsTitle" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Margin="10"/>
+			<WrapPanel x:Name="StatsView"/>
+		</StackPanel>
+	</ScrollViewer>
+</UserControl>

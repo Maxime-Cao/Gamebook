@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "authorName": "Maxime Cao",
+      "title": "Harry Potter 2"
+    },
+    {
+      "authorName": "Maxime Cao",
+      "isbn": "2-170051-01-5",
+      "title": "Harry Potter 1",
+      "resume": "Ceci est la description d'Harry Potter 1"
+    }
+  ]
+}

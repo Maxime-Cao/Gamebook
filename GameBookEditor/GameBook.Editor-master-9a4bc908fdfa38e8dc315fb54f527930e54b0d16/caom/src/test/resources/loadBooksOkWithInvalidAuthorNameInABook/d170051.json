@@ -1,0 +1,10 @@
+{
+  "books": [
+    {
+      "authorName": "Maxime 123",
+      "isbn": "2-170051-01-5",
+      "title": "Harry Potter 1",
+      "resume": "Ceci est la description d'Harry Potter 1"
+    }
+  ]
+}

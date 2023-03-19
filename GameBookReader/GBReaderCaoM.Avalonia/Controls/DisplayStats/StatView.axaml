@@ -1,0 +1,14 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderCaoM.Avalonia.Controls.DisplayStats.StatView">
+	<StackPanel x:Name="StatPanel" Width="300" MinHeight="175" Margin="10" Background="#efefef">
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="TitleBook"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="IsbnBook"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="CurrentPage"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="FirstRead"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="LastRead"/>
+	</StackPanel>
+</UserControl>

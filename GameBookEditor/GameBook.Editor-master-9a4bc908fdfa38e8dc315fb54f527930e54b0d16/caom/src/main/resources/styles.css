@@ -1,0 +1,43 @@
+.header {
+    -fx-font-size: 14;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: black;
+}
+
+.title {
+    -fx-font-size: 24;
+}
+
+.input, .text-area {
+    -fx-pref-width: 194;
+}
+
+.isbn {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+.text-area {
+    -fx-min-height: 50;
+}
+
+.button {
+    -fx-pref-width: 110;
+}
+
+.bigButton {
+    -fx-pref-width: 175;
+}
+
+.errorMessage {
+    -fx-text-fill: red;
+}
+
+.successMessage {
+    -fx-text-fill: green;
+}
+
+.listEmpty {
+    -fx-min-height: 1;
+    -fx-max-height: 1;
+}

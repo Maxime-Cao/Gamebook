@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderCaoM.Avalonia.BookDetailsView">
+	<StackPanel x:Name="BookDetailsPanel" Width="500" Margin="10" Background="#d5e2e8">
+		<TextBlock Margin="6" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" x:Name="TitleBook"/>
+		<Image Source="/Resources/Icons/no-image.png" Width="250" />
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="AuthorBook"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="IsbnBook"/>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6">Description : </TextBlock>
+		<TextBlock TextWrapping="Wrap" FontWeight="Bold" HorizontalAlignment="Center" Margin="6" x:Name="ResumeBook"/>
+		<Button HorizontalAlignment="Center" Margin="10" Click="OnClickStartReading">Démarrer ou reprendre la lecture</Button>
+	</StackPanel>
+</UserControl>

@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderCaoM.Avalonia.Pages.DisplayBooksView">
+	<ScrollViewer HorizontalAlignment="Center" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+		<StackPanel HorizontalAlignment="Center" Margin="8" Spacing="8">
+			<TextBlock x:Name="SuccessMessage" Foreground="Green" IsVisible="False"/>
+			<TextBlock x:Name="ErrorMessage" Foreground="Red" IsVisible="False"/>
+			<TextBlock x:Name="SelectedBookTitle" TextDecorations="Underline" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="10">Livre choisi</TextBlock>
+			<StackPanel x:Name="BookDetails" />
+			<TextBlock x:Name="BooksTitle" TextDecorations="Underline" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="10">Mes livres</TextBlock>
+			<StackPanel x:Name="SearchBook" />
+			<TextBlock x:Name="NoResult" HorizontalAlignment="Center" FontSize="20" IsVisible="False">Aucun résultat</TextBlock>
+			<WrapPanel x:Name="BooksView"/>
+			<Button x:Name="StatsButton" Click="OnClickGoToStats" HorizontalAlignment="Center">Consulter les statistiques</Button>
+		</StackPanel>
+	</ScrollViewer>
+</UserControl>
